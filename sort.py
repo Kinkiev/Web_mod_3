@@ -10,8 +10,9 @@ import concurrent.futures
 
 CATEGORIES = {"Audio": [".mp3", ".aiff", ".wav"],
               "Documents": [".docx", ".txt", ".pdf", ".xls", ".xlsx", ".doc", ".ppt", ".pptx"],
-              "Images": [".jpg", ".jpeg", ".png"],
+              "Images": [".jpg", ".jpeg", ".png", ".gif"],
               "archives": [".zip", ".rar", ".gz", ".tar"],
+              "video":[".mpeg", ".mpeg4", ".mp4", ".mov"],
               "Other":[]}
 
 CYRILLIC_SYMBOLS = "абвгдеёжзийклмнопрстуфхцчшщъыьэюяєіїґ"
