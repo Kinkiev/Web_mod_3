@@ -18,7 +18,7 @@ def factorize(numbers):
 # a, b, c, d  = factorize(128, 255, 99999, 10651060)
 
 def time_do():
-    numbers = [128, 255, 99990, 10651060]
+    numbers = [128, 255, 99999, 10651060]
     start_time = time.time()
     factors_list = factorize(numbers)
     end_time = time.time()
