@@ -6,7 +6,7 @@ def factorize_worker(num, result_dict):
     for i in range(1, num + 1):
         if num % i == 0:
             factors.append(i)
-    result_dict[num] = factors if factors else [num]
+    result_dict[num] = factors
 
 def factorize_parallel(numbers):
     manager = multiprocessing.Manager()
